@@ -1,0 +1,25 @@
+
+
+.container{
+    width: 90%;
+}
+body{
+    background-color: bisque;
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    
+}
+
+h2{
+    text-align: center;
+    
+}
+.fin{
+    margin-top: 30px;
+    text-align: center;
+}
+button[type='submit']{
+    background-color: brown;
+    color:azure;
+}

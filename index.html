@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Formulario</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link type="text/css" href="style.css" rel="stylesheet">
+	</head>
+
+	<body>
+        
+        <h2> CONTACTA CON NOSOTROS</h2>
+    <div class='container'>
+    <form>
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input required type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
+        </div>
+        <div class="form-group">
+            <label for="empresa">Empresa</label>
+            <input type="text" class="form-control" id="empresa" placeholder="Razón social de la empresa">
+        </div>
+        <div class="form-group">
+            <label for="e-mail">Correo Electrónico</label>
+            <input required type="e-mail"  class="form-control" id="e-mail">
+            
+        </div>
+        <div class="form-group">
+            <label for="telefono">Número de Teléfono</label>
+            <input type="text" class="form-control" id="telefono" maxlength="9">
+        </div>    
+        
+  
+        <div class="form-group border">
+        
+            <label>Asunto:</label>
+            
+            <label class="radio-inline">
+            <input type="radio" name="consulta" id="consulta" value="C">Consulta
+            </label>
+            
+            <label class="radio-inline">
+            <input type="radio" name="consulta" id="pedido" value="P">Pedido
+            </label>
+            
+            <label class="radio-inline">
+            <input type="radio" name="consulta" id="presupuesto" value="Pe">Presupuesto
+            </label>
+            
+            <label class="radio-inline">
+            <input type="radio" name="consulta" id="otros" value="O">Otros
+            </label>
+            
+            
+            <div class="checkbox">
+            <label>
+            <input type="checkbox"> ¿Quieres que te enviemos nuestros boletines?
+            </label>
+            
+            </div>
+         </div>
+    
+            <div class='area'>
+                <label> Mensaje</label>
+                
+                <textarea class="form-control" rows="3"></textarea>
+            </div>
+        
+        
+        <div class='menu'>
+        
+            
+            <label> ¿Como nos has conocido?</label>
+            <select name ='contacto' class="form-control">
+            
+            <option disabled selected>Elige una opción</option>
+            <option value='prensa'>Prensa</option>
+            <option value='radio'>Radio</option>
+            <option value='internet'>Internet</option>
+            <option value='otros'>Otros</option>
+            
+        </select>
+        </div>
+        <div class='fin'>
+            <button type="submit" class="btn btn-default">Enviar</button>
+        </div>
+</form>
+        
+        
+        
+    </div>
+
+	</body>
+</html>
