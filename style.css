@@ -19,7 +19,9 @@ h2{
     margin-top: 30px;
     text-align: center;
 }
-button[type='submit']{
-    background-color: brown;
-    color:azure;
+
+.btn-gourmet{
+    color: #fff;
+    background-color: peru;
+    border-color: peru;
 }
