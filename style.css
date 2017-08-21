@@ -4,7 +4,7 @@
     width: 90%;
 }
 body{
-    background-color: bisque;
+    background-color: gainsboro;
     width: 1000px;
     height: 800px;
     margin: 0 auto;
@@ -13,6 +13,8 @@ body{
 
 h2{
     text-align: center;
+    text-shadow: 2px 2px 3px;
+    color:blueviolet;
     
 }
 .fin{
@@ -22,6 +24,13 @@ h2{
 
 .btn-gourmet{
     color: #fff;
-    background-color: peru;
-    border-color: peru;
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+label{
+    color: blueviolet;
+}
+.form-control{
+    border:2px solid blueviolet;
+    
 }
